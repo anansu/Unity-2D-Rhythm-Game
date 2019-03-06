@@ -26,7 +26,7 @@ public class GameManager : MonoBehaviour
     private Image judgementSpriteRender;
     private Animator judgementSpriteAnimator;
     private AudioSource audioSource;
-    private string music = "Drops of H20";
+    public string music = "1";
 
     void MusicStart()
     {
