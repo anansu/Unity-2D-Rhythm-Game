@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 {
     // GameManager를 싱글 톤 처리합니다.
     public static GameManager instance { get; set; }
+    public int maxCombo;
 
     public bool autoPerfect;    
     public float noteSpeed;
@@ -14,7 +15,7 @@ public class GameManager : MonoBehaviour
     private SpriteRenderer[] trailsSpriteRenderers;
 
     public GameObject scoreUI;
-    private float score;
+    public float score;
     private Text scoreText;
 
     public GameObject comboUI;
@@ -106,6 +107,10 @@ public class GameManager : MonoBehaviour
         {
             comboText.text = "COMBO " + combo.ToString();
             comboAnimator.SetTrigger("Show");
+        }
+        if (maxCombo < combo)
+        {
+            maxCombo = combo;
         }
     }
 
