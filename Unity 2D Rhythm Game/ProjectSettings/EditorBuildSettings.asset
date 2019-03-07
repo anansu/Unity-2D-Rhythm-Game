@@ -5,9 +5,9 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 0
-    path: 
-    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/SongSelectScene.unity
+    guid: e3161de10a7f47c499aa311555af26db
   - enabled: 1
     path: Assets/Scenes/GameScene.unity
     guid: b67465aa0d5e4ba47a61cc919f0adfdf

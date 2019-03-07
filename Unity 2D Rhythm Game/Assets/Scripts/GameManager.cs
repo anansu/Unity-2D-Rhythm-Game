@@ -29,12 +29,12 @@ public class GameManager : MonoBehaviour
     private Image judgementSpriteRender;
     private Animator judgementSpriteAnimator;
     private AudioSource audioSource;
-    public string music = "1";
+
 
     void MusicStart()
     {
         // 리소스에서 비트(Beat) 음악 파일을 불러와 재생합니다.
-        AudioClip audioClip = Resources.Load<AudioClip>("Beats/" + music);
+        AudioClip audioClip = Resources.Load<AudioClip>("Beats/" + PlayerInformation.selectedMusic);
         audioSource = GetComponent<AudioSource>();
         audioSource.clip = audioClip;
         audioSource.Play();

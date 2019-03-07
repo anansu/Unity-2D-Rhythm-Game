@@ -1870,6 +1870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84c1d72671d43b4448b05da5d1fa7bbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  maxCombo: 0
   autoPerfect: 1
   noteSpeed: 0.1
   trails:
@@ -1878,9 +1879,10 @@ MonoBehaviour:
   - {fileID: 14287407}
   - {fileID: 400521651}
   scoreUI: {fileID: 768550062}
+  score: 0
   comboUI: {fileID: 142362551}
   judgeUI: {fileID: 743199581}
-  music: 1
+  music: 2
 --- !u!4 &1083509469
 Transform:
   m_ObjectHideFlags: 0
