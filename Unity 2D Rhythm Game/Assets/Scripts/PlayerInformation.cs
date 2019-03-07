@@ -9,5 +9,7 @@ public static class PlayerInformation {
     public static float score;
     public static string musicTitle;
     public static string musicArtist;
+    public static Firebase.Auth.FirebaseAuth auth;
+
 
 }
