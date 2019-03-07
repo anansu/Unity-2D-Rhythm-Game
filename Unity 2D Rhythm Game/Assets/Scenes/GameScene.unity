@@ -1871,7 +1871,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   maxCombo: 0
-  autoPerfect: 1
+  autoPerfect: 0
   noteSpeed: 0.1
   trails:
   - {fileID: 481569544}
@@ -1882,7 +1882,6 @@ MonoBehaviour:
   score: 0
   comboUI: {fileID: 142362551}
   judgeUI: {fileID: 743199581}
-  music: 2
 --- !u!4 &1083509469
 Transform:
   m_ObjectHideFlags: 0
