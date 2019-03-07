@@ -7,6 +7,8 @@ public class GameManager : MonoBehaviour
 {
     // GameManager를 싱글 톤 처리합니다.
     public static GameManager instance { get; set; }
+
+    public bool autoPerfect;    
     public float noteSpeed;
     public GameObject[] trails;
     private SpriteRenderer[] trailsSpriteRenderers;

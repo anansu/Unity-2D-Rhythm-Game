@@ -1870,6 +1870,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 84c1d72671d43b4448b05da5d1fa7bbe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  autoPerfect: 1
   noteSpeed: 0.1
   trails:
   - {fileID: 481569544}
