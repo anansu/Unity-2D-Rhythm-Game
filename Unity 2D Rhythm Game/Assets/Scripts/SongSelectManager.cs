@@ -49,10 +49,20 @@ public class SongSelectManager : MonoBehaviour
         UpdateSong(musicIndex);
     }
 
+    // 회원가입 결과 UI
+    public Text userUI;
+
     void Start()
     {
+        userUI.text = PlayerInformation.auth.CurrentUser.Email + "님, 환영합니다.";
         musicIndex = 1;
         UpdateSong(musicIndex);
+    }
+
+    public void LogOut()
+    {
+        PlayerInformation.auth.SignOut();
+        SceneManager.LoadScene("LoginScene");
     }
 
     public void GameStart()
